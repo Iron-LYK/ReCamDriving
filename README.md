@@ -33,7 +33,6 @@
   <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data(soon)-orange'></a>
 </p>
 
-***
 
 ## 📷 Abstract
 
@@ -47,14 +46,12 @@ We propose **ReCamDriving**, a purely vision-based, camera-controlled novel-traj
 
 <b>Comparison of novel-trajectory generation.</b> Repair-based methods (e.g., Difix3D+) suffer from severe artifacts under novel viewpoints, while LiDAR-based camera-controlled methods (e.g., StreetCrafter) show geometric inconsistencies in occluded or distant regions due to incomplete cues. In contrast, ReCamDriving employs a coarse-to-fine two-stage training strategy that leverages dense scene-structure information from novel-trajectory 3DGS renderings for precise camera control and structurally consistent generation.
 
-***
 
 ## 🌐 ParaDrive Dataset
 Based on our data curation strategy, we constructed the **ParaDrive** dataset, which contains **over 110K parallel-trajectory video pairs**, enabling scalable multi-trajectory supervision.
 
 We are finalizing the release of the code and data and aim to complete it as soon as possible. Please stay tuned!
 
-***
 
 ## ✅ TODO List
 The code, model weights, and dataset will be made public as soon as possible.
@@ -63,7 +60,6 @@ The code, model weights, and dataset will be made public as soon as possible.
 - [ ] Release model weights.
 - [ ] Release ParaDrive dataset.
 
-***
 
 ## 🔗 Citation
 If you find our work helpful, please consider citing:
