@@ -45,21 +45,23 @@ We propose **ReCamDriving**, a purely vision-based, camera-controlled novel-traj
 <br>
 </div>
 
-<p align="center"><b>Comparison of novel-trajectory generation.</b> Repair-based methods (e.g., Difix3D+) suffer from severe artifacts under novel viewpoints, while LiDAR-based camera-controlled methods (e.g., StreetCrafter) show geometric inconsistencies in occluded or distant regions due to incomplete cues. In contrast, ReCamDriving employs a coarse-to-fine two-stage training strategy that leverages dense scene-structure information from novel-trajectory 3DGS renderings for precise camera control and structurally consistent generation.</p>
+<b>Comparison of novel-trajectory generation.</b> Repair-based methods (e.g., Difix3D+) suffer from severe artifacts under novel viewpoints, while LiDAR-based camera-controlled methods (e.g., StreetCrafter) show geometric inconsistencies in occluded or distant regions due to incomplete cues. In contrast, ReCamDriving employs a coarse-to-fine two-stage training strategy that leverages dense scene-structure information from novel-trajectory 3DGS renderings for precise camera control and structurally consistent generation.
 
 ***
-
 
 ## 🌐 ParaDrive Dataset
 Based on our data curation strategy, we constructed the **ParaDrive** dataset, which contains **over 110K parallel-trajectory video pairs**, enabling scalable multi-trajectory supervision.
 
+We are finalizing the release of the code and data and aim to complete it as soon as possible. Please stay tuned!
+
 ***
 
 ## ✅ TODO List
-Code and dataset will be made public as soon as possible.
-- [x] arXiv paper released.
-- [ ] Release Training and Inference code.
-- [ ] Release Dataset (ParaDrive).
+The code, model weights, and dataset will be made public as soon as possible.
+- [x] Paper released on arXiv.
+- [ ] Release training and inference code.
+- [ ] Release model weights.
+- [ ] Release ParaDrive dataset.
 
 ***
 
