@@ -65,6 +65,6 @@ If you find our work helpful, please consider citing:
 @article{li2025recamdriving,
   title={ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation},
   author={xxx},
-  journal={arXiv preprint arXiv:2510.22213},
+  journal={xx},
   year={2025}
 }
