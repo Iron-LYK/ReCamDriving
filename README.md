@@ -20,6 +20,7 @@
     <sup>1</sup> Sun Yat-sen University &nbsp;&nbsp;
     <sup>2</sup> ZYT &nbsp;&nbsp;
     <sup>3</sup> Shenzhen Polytechnic University &nbsp;&nbsp;
+    <br>
     <sup>4</sup> The Hong Kong University of Science and Technology
   </p>
 </div>
