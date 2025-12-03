@@ -50,11 +50,9 @@ We propose **ReCamDriving**, a purely vision-based, camera-controlled novel-traj
 ## 🌐 ParaDrive Dataset
 Based on our data curation strategy, we constructed the **ParaDrive** dataset, which contains **over 110K parallel-trajectory video pairs**, enabling scalable multi-trajectory supervision.
 
-We are finalizing the release of the code and data and aim to complete it as soon as possible. Please stay tuned!
-
 
 ## ✅ TODO List
-The code, model weights, and dataset will be made public as soon as possible.
+We are finalizing the release of the code and data and aim to complete it as soon as possible. Please stay tuned!
 - [x] Paper released on arXiv.
 - [ ] Release training and inference code.
 - [ ] Release model weights.
