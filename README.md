@@ -17,16 +17,15 @@
     <sup>1</sup> Sun Yat-sen University &nbsp;&nbsp;
     <sup>2</sup> ZYT &nbsp;&nbsp;
     <sup>3</sup> Shenzhen Polytechnic University &nbsp;&nbsp;
+    <br>
     <sup>4</sup> The Hong Kong University of Science and Technology
   </p>
 </div>
 
 <p align="center">
-  <a href='https://iron-lyk.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+  <a href='https://recamdriving.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
   &nbsp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Arxiv&message=2510.22213&color=red&logo=arxiv"></a>
-  &nbsp;
-  <a href='https://recamdriving.github.io/'><img src='https://img.shields.io/badge/GitHub-Code-blue?logo=github'></a>
+  <a href=""><img src="https://img.shields.io/static/v1?label=Arxiv&message=2512.xxxx&color=red&logo=arxiv"></a>
   &nbsp;
   <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data(soon)-orange'></a>
 </p>
@@ -39,7 +38,7 @@ We propose **ReCamDriving**, a purely vision-based, camera-controlled novel-traj
 
 <div align="center">
 <br>
-  <img width="80%" src="docs/teaser.png" alt="ReCamDriving Teaser Image: Comparison of novel-trajectory generation methods">
+  <img width="80%" src="assets/teaser.png" alt="ReCamDriving Teaser Image: Comparison of novel-trajectory generation methods">
 <br>
 </div>
 
@@ -47,23 +46,6 @@ We propose **ReCamDriving**, a purely vision-based, camera-controlled novel-traj
 
 ***
 
-## 💡 Methodology Overview
-
-The **ReCamDriving** framework utilizes a two-stage training scheme to ensure precise and structurally consistent novel-trajectory video generation.
-
-1.  **Stage 1 (Coarse Control):** Trains DiT blocks conditioned on the **source trajectory video** and the **relative camera pose**.
-2.  **Stage 2 (Fine-grained Guidance):** The original DiT parameters are frozen, and additional attention modules are introduced to integrate **3DGS renderings** for fine-grained view control and structural guidance.
-
-### Cross-trajectory Data Curation
-We introduce a novel **3DGS-based cross-trajectory data curation strategy** to eliminate the train–inference gap in camera transformation patterns. This strategy enables scalable lateral trajectory supervision from single-trajectory videos and was used to construct the **ParaDrive** dataset.
-
-<div align="center">
-<br>
-  <img width="90%" src="docs/framework.png" alt="ReCamDriving Framework Overview">
-<br>
-</div>
-
-***
 
 ## 🌐 ParaDrive Dataset
 Based on our data curation strategy, we constructed the **ParaDrive** dataset, which contains **over 110K parallel-trajectory video pairs**, enabling scalable multi-trajectory supervision.
@@ -72,7 +54,7 @@ Based on our data curation strategy, we constructed the **ParaDrive** dataset, w
 
 ## ✅ TODO List
 Code and dataset will be made public as soon as possible.
-- [x] Project page and Abstract released.
+- [x] arXiv paper released.
 - [ ] Release Training and Inference code.
 - [ ] Release Dataset (ParaDrive).
 
