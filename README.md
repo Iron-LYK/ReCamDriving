@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="static/images/logo.png" alt="ReCamDriving Logo" style="height: 120px; margin-bottom: 5px;" />
+  <img src="assets/logo.png" alt="ReCamDriving Logo" style="height: 120px; margin-bottom: 5px;" />
   <h1 style="border-bottom: none;">ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation</h1>
 </div>
 <div align="center">
