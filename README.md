@@ -28,7 +28,7 @@
 <p align="center">
   <a href='https://recamdriving.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
   &nbsp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Arxiv&message=2512.xxxx&color=red&logo=arxiv"></a>
+  <a href="https://arxiv.org/abs/2512.03621"><img src="https://img.shields.io/static/v1?label=Arxiv&message=ReCamDriving&color=red&logo=arxiv"></a>
   &nbsp;
   <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data(soon)-orange'></a>
 </p>
@@ -62,9 +62,12 @@ We are finalizing the release of the code and data and aim to complete it as soo
 ## 🔗 Citation
 If you find our work helpful, please consider citing:
 ```bibtex
-@article{li2025recamdriving,
-  title={ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation},
-  author={xxx},
-  journal={xx},
-  year={2025}
+@misc{li2025recamdrivinglidarfreecameracontrollednovel,
+      title={ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation}, 
+      author={Yaokun Li and Shuaixian Wang and Mantang Guo and Jiehui Huang and Taojun Ding and Mu Hu and Kaixuan Wang and Shaojie Shen and Guang Tan},
+      year={2025},
+      eprint={2512.03621},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.03621}, 
 }
