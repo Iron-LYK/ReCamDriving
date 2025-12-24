@@ -6,7 +6,7 @@
 <div align="center">
   <p>
     <a href="https://iron-lyk.github.io/" target="_blank">Yaokun Li</a><sup>1</sup>,
-    <a>Shuaixian&nbsp;Wang</a><sup>1,3</sup>,
+    <a href="https://github.com/Iron-LYK/ReCamDriving" target="_blank">Shuaixian Wang</a><sup>1,3</sup>,
     <a href="https://scholar.google.com/citations?user=0_LPgUYAAAAJ&hl=zh-CN" target="_blank">Mantang Guo</a><sup>2</sup>,
     <a href="https://jackailab.github.io/" target="_blank">Jiehui Huang</a><sup>4</sup>,
     <a href="https://openreview.net/profile?id=~Taojun_Ding1" target="_blank">Taojun Ding</a><sup>2</sup>
